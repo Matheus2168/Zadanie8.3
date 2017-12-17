@@ -4,12 +4,12 @@ public class Rectangle extends GeometricShape {
 
     private int a;
     private int b;
-    private int c;
 
-    public Rectangle(int a, int b, int c) {
+
+    public Rectangle(int a, int b) {
         this.a = a;
         this.b = b;
-        this.c = c;
+
     }
 
     public int getA() {
@@ -28,11 +28,8 @@ public class Rectangle extends GeometricShape {
         this.b = b;
     }
 
-    public int getC() {
-        return c;
-    }
 
-    public void setC(int c) {
-        this.c = c;
-    }
+
+
+
 }

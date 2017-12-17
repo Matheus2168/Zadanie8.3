@@ -3,13 +3,10 @@ package pl.ShapesTree;
 public class Cube extends Shape3D {
 
     private int a;
-    private int b;
-    private int c;
 
-    public Cube(int a, int b, int c) {
+
+    public Cube(int a) {
         this.a = a;
-        this.b = b;
-        this.c = c;
     }
 
     public int getA() {
@@ -20,19 +17,6 @@ public class Cube extends Shape3D {
         this.a = a;
     }
 
-    public int getB() {
-        return b;
-    }
 
-    public void setB(int b) {
-        this.b = b;
-    }
 
-    public int getC() {
-        return c;
-    }
-
-    public void setC(int c) {
-        this.c = c;
-    }
 }
